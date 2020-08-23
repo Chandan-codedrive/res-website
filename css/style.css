@@ -1,0 +1,138 @@
+.header {
+    background-color: rgb(252, 202, 70);
+    color: white;
+    padding-top: 2px;
+}
+.menue{
+    float: right;   
+}
+#banner{
+    background: url(../images/of5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.banner-title{
+    background-color: rgba(207, 198, 100, 0.4);
+    margin: 0px;
+}
+.banner-text{
+    background-color: rgba(252, 202, 70, 0.3);
+    margin: 0px;
+    font-weight: 600;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.fas, i.fab{
+        color: rgb(252, 202, 70);
+        font-size: 50px;
+        
+}
+#section h1{
+    text-align: center;
+    margin-top: 10px;
+}
+#testimonials{
+    background: url(../images/texture2.jpg);
+    background-repeat: no-repeat 0 0;
+    background-size: cover;
+    position: relative;
+    padding: 50px 0;
+    color: white;	
+}
+#testimonials:before{
+    background-color: rgba(252, 202, 70, 0.2);
+    content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+    
+    
+}
+.t-image{
+    height: 100px;
+    border-color: rgb(252, 202, 70);
+    border-radius: 50px;
+    border-style: solid;
+    border-width:5px;
+}
+.testimonial p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: black;
+}
+.col-md-3 img{
+    height: 150px;
+}
+#recentnews h1{
+    text-align: center;
+    color: rgb(252, 202, 70);
+}
+#recentnews h1:after{
+    background-color: rgb(252, 202, 70);
+    display: block;
+    width: 100px;
+    height: 3px;
+    content: "";
+    margin: 10px auto;
+}
+#recentnews img{
+    text-align: center;
+}
+.col-md-3 h4{
+    color: rgb(252, 202, 70);
+}
+.date:before{
+    content: "\f073";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+#fotter{
+    background: rgb(192, 147, 24);
+    color: white;
+    
+}
+.news-link a{
+    color: white;
+    text-decoration: none;
+}
+.news-link a:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+#last-footer i.fab{
+    font-size: 30px;
+       
+}
+.fotter-social-icon{
+    float: right;
+}
+#last-footer{
+    background-color: rgb(138, 102, 4);
+    color: white;
+}
+#social-icons li{
+        display: inline-block;
+        padding-left: 3px;
+        font-size: 20px;      
+}
+#social-icons li a{
+    color: white;
+}
+@media only screen and (max-width: 767px) {
+    .menue{
+        float: left;   
+    }
+    #nav-logo h2{
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    #recentnews {
+         margin: 0 auto;
+         text-align: center;
+          }
+  }
